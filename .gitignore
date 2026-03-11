@@ -1,0 +1,33 @@
+# ─── Compilados e Build ───────────────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+
+# ─── Maven ────────────────────────────────────────────────────────────────────
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# ─── IntelliJ IDEA ────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ─── Eclipse ──────────────────────────────────────────────────────────────────
+.classpath
+.project
+.settings/
+
+# ─── VS Code ──────────────────────────────────────────────────────────────────
+.vscode/
+
+# ─── Variáveis de ambiente (NUNCA commitar!) ──────────────────────────────────
+.env
+*.env
+
+# ─── Sistema Operacional ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
